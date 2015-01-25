@@ -14,25 +14,32 @@ Based on and inspired by:
 
 Add the following line to your Gemfile:
 
-
-    gem 'sprockets-react', '~> 0.0.1', github: 'mfellner/sprockets-react'
+```ruby
+gem 'sprockets-react', '~> 0.0.1', github: 'mfellner/sprockets-react'
+```
 
 Then install your gems with Bundler:
 
-    bundle install
+```ruby
+bundle install
+```
 
 ## Usage
 
 In your application, require *sprockets* and *sprockets-react*:
 
-    require 'sprockets'
-    require 'sprockets/react'
+```ruby
+require 'sprockets'
+require 'sprockets/react'
+```
 
 You can configure custom filename extensions:
 
-    Sprockets::React.configure do |conf|
-      conf.extensions = %w( jsx jsx.js js.jsx )
-    end
+```ruby
+Sprockets::React.configure do |conf|
+  conf.extensions = %w( jsx jsx.js js.jsx )
+end
+```
 
 Sprockets-react uses [ExecJS](https://github.com/sstephenson/execjs) to run React.
 You need to have a compatible JavaScript runtime installed.
@@ -41,4 +48,6 @@ You need to have a compatible JavaScript runtime installed.
 
 Run tests with RSpec:
 
-    rspec
+```ruby
+rspec
+```
