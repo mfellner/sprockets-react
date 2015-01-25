@@ -37,3 +37,8 @@ You can configure custom filename extensions:
 Sprockets-react uses [ExecJS](https://github.com/sstephenson/execjs) to run React.
 You need to have a compatible JavaScript runtime installed.
 
+## Development
+
+Run tests with RSpec:
+
+    rspec
