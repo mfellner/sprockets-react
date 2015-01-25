@@ -30,7 +30,7 @@ In your application, require *sprockets* and *sprockets-react*:
 
 ```ruby
 require 'sprockets'
-require 'sprockets/react'
+require 'sprockets-react'
 ```
 
 You can configure custom filename extensions:
